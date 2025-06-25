@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://feedback-dashboard-71id.onrender.com"])
 
 # Config
 app.config['MONGO_URI'] = os.getenv("MONGO_URI")
