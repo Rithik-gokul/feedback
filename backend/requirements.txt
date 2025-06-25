@@ -1,0 +1,6 @@
+Flask
+flask-cors
+pymongo
+Flask-PyMongo
+Flask-JWT-Extended
+werkzeug 
