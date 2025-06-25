@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000', // Change if backend runs elsewhere
+  baseURL: "https://feedback-i5do.onrender.com", // Change if backend runs elsewhere
 });
 
 export const login = async (username, password) => {

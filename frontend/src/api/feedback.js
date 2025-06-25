@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: "https://feedback-i5do.onrender.com",
 });
 
 export const submitFeedback = async (token, feedback) => {
