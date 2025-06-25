@@ -4,3 +4,4 @@ pymongo
 Flask-PyMongo
 Flask-JWT-Extended
 werkzeug 
+python-dotenv
